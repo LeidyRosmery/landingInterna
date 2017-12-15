@@ -176,6 +176,11 @@ a:focus, a:active, a:hover {
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
 @media screen and (min-width: 992px) {
+  .txt-header {
+    padding: 30px 20px 10px;
+    line-height: 24px;
+    font-size: 16px;
+}
   .header-card a {
     justify-content: center;
   }
