@@ -58,6 +58,10 @@
   color: #2c76b1;
   font-size: 1.2em;
 }
+ul.list-subcat {
+    list-style: none;
+    padding: 0;
+}
 
 .plus {
   color: #fff;
@@ -185,7 +189,7 @@ a:focus, a:active, a:hover {
     justify-content: center;
   }
   .img-garantia {
-    width: 35%;
+    width: 25%;
   }
   .collapse {
     display: block !important;
