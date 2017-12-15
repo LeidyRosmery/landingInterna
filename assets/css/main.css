@@ -55,40 +55,45 @@
 }
 
 .txt-blue {
-  color: #0079d7;
+  color: #2c76b1;
   font-size: 1.2em;
 }
+
 .plus {
   color: #fff;
   font-size: 40px;
   font-family: 'miso';
 }
+
 .return {
-    padding: 20px 35px;
+  padding: 20px 35px;
 }
 
 .header-card {
-    font-family: "MisoBold", Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    font-weight: normal;
-    line-height: 23px;
-    color: #0072ce;
-    background: #0072ce;
-    cursor: pointer;
-    display: block;
-    border-radius: 4px;
-    padding:0;
+  font-family: "MisoBold", Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 23px;
+  color: #0072ce;
+  background: #0072ce;
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  padding: 0;
 }
-.header-card a{
+
+.header-card a {
   color: #fff;
   font-family: "miso";
   font-size: 18px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 40px;
 }
+
 .txt-red {
-  color: #DD0021;
+  color: #c3292e;
 }
 
 /********************************************************/
@@ -102,7 +107,7 @@
 }
 
 .txt-header {
-  padding: 10px 20px;
+  padding: 30px 20px 10px;
 }
 
 .form-servicios {
@@ -110,7 +115,7 @@
 }
 
 .form-servicios span {
-  background: #0079d7;
+  background: #2c76b1;
 }
 
 .form-servicios .icon-search {
@@ -122,7 +127,8 @@
 /*  estilos contenido */
 
 /********************************************************/
-.cont-interna{
+
+.cont-interna {
   background-image: url(../img/icono-con-fondo.png);
   width: 80%;
   background-size: cover;
@@ -131,70 +137,134 @@
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
-  background-position-y:0; 
+  background-position-y: 0;
 }
+
 h4.txt-red.title-header.text-center {
-    padding-top: 123px;
+  padding-top: 123px;
 }
-.cont-item{
-    padding: 15px 38px 0;
+
+.cont-item {
+  padding: 15px 35px 0;
 }
-a:focus, a:active ,a:hover{
+
+a:focus, a:active, a:hover {
   text-decoration: none;
 }
-.divisor{
+
+.divisor {
   width: 35%;
   background: #b3b3b3;
   height: 2px;
   margin: 20px auto 10px;
+}
 
+.sub-cat {
+  border-bottom: 2px solid #b3b3b3;
+  padding: 10px;
 }
-.sub-cat{
-border-bottom: 2px solid #b3b3b3;
-padding: 10px;
-}
-.cont-img{
+
+.cont-img {
   width: 17%;
   margin: 0 auto;
-  position:  absolute;
+  position: absolute;
   left: 40.5%;
   /* bottom: -18%; */
   bottom: -33px;
-  }
+}
 
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
 @media screen and (min-width: 992px) {
-.plus{
-  display: none;
-}
+  .header-card a {
+    justify-content: center;
+  }
+  .img-garantia {
+    width: 35%;
+  }
+  .collapse {
+    display: block !important;
+  }
+  .cont-item {
+    padding: 15px 161px 0;
+  }
+  .itemAccord {
+    padding: 10px 50px 10px;
+  }
+  .header-card a {
+    font-size: 20px;
+    padding: 16px;
+  }
+  .sub-cat {
+    border-bottom: none;
+    /* padding: 0 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  span.txt-blue.title-header.title-desktop {
+    font-size: 21px;
+  }
+  ul {
+    border: solid #b3b3b3 2px;
+    margin-top: 1px;
+    border-radius: 5px;
+  }
+  h4.txt-red.title-header.text-center {
+    padding-top: 146px;
+    font-size: 33px;
+  }
+  .title-header {
+    font-family: 'misobold';
+    font-size: 33px;
+  }
+  .plus {
+    display: none;
+  }
 }
 
 /*Tableta Mobile L Mobile M Mobile S Mobile 175+ 150+*/
 
 @media screen and (max-width: 992px) {
+  .cont-item {
+    padding: 15px 95px 0;
+  }
 
 }
 
 /*Mobile 200+*/
 
 @media screen and (max-width: 768px) {
+  .cont-item {
+    padding: 15px 50px 0;
   }
+  .plus {
+    display: block;
+  }
+}
 
 /*Mobile 250+*/
 
 @media screen and (max-width: 560px) {
-
+  .cont-item {
+    padding: 15px 30px 0;
+  }
 }
 
 /*Mobile 300+*/
 
 @media screen and (max-width: 480px) {
-
+  .cont-item {
+    padding: 15px 20px 0;
+  }
 }
 
 /*Mobile 500+*/
 
 @media screen and (max-width:453px) {
-
+  .cont-item {
+    padding: 15px 35px 0;
+  }
+  .header-card a {
+    padding: 0 40px;
+  }
 }

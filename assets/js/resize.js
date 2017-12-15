@@ -4,6 +4,7 @@ $(window).load( function() {
   if(width < 992) { //mobile
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="0px";
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingRight="0px";
+
   }
   else { //desktop
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="15px";
@@ -17,9 +18,10 @@ $(window).resize( function() {
   if(width < 992) {
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="0px";
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingRight="0px";
+
   }
   else {
-    document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="15px";
+      document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingLeft="15px";
     document.querySelector('#main.newMainSection > .container > .col-md-12').style.paddingRight="15px";
   }
 });
