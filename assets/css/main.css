@@ -96,10 +96,28 @@
 /********************************************************/
 .cont-interna{
   background-image: url(../img/fondo_especificaciones.png);
-  width:  100%;
+  width: 80%;
   background-size: cover;
-  height: 82px;
+  margin-top: 43px;
+  /* margin: 0 50px; */
+  margin: 0 auto;
+  position:  relative;
+  background-repeat: no-repeat;
 }
+h4.txt-red.title-header.text-center {
+    padding-top: 40px;
+}
+.cont-item{
+padding: 15px 38px;
+}
+.cont-img{
+  width: 17%;
+  margin: 0 auto;
+  position:  absolute;
+  left: 40.5%;
+  /* bottom: -18%; */
+  bottom: -33px;
+  }
 
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
