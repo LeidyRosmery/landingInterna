@@ -95,6 +95,10 @@
 .txt-red {
   color: #c3292e;
 }
+ul.list-subcat {
+    list-style: none;
+    padding: 0;
+}
 
 /********************************************************/
 
@@ -185,7 +189,7 @@ a:focus, a:active, a:hover {
     justify-content: center;
   }
   .img-garantia {
-    width: 35%;
+      width: 25%;
   }
   .collapse {
     display: block !important;
