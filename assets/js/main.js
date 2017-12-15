@@ -10,6 +10,6 @@ $(document).ready(function() {
       }).get(),
       maxHeight = Math.max.apply(null, heights);
     $(".list-subcat").height(maxHeight);
-    $('.cont-interna ').css('background-image', 'url(../img/logo-fondo-desktopl.png)');
+    $('.cont-interna ').css('background-image', 'url(assets/img/logo-fondo-desktopl.png)');
   }
 });
