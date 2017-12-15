@@ -58,15 +58,14 @@
   color: #2c76b1;
   font-size: 1.2em;
 }
+
 ul.list-subcat {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .plus {
   color: #fff;
-  font-size: 40px;
-  font-family: 'miso';
 }
 
 .return {
@@ -88,8 +87,9 @@ ul.list-subcat {
 
 .header-card a {
   color: #fff;
-  font-family: "miso";
-  font-size: 18px;
+  font-family: "misobold";
+  font-weight: 400;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,7 +111,9 @@ ul.list-subcat {
 }
 
 .txt-header {
-  padding: 30px 20px 10px;
+  padding: 30px 18px 30px;
+  line-height: 20px;
+  font-size: 13px;
 }
 
 .form-servicios {
@@ -131,10 +133,12 @@ ul.list-subcat {
 /*  estilos contenido */
 
 /********************************************************/
-
+div#accordionPrueba {
+    padding: 14px 25px;
+}
 .cont-interna {
-  background-image: url(../img/icono-con-fondo.png);
-  width: 80%;
+  background-image: url(../img/logo-fondo-movil.png);
+  width: 100%;
   background-size: cover;
   margin-top: 43px;
   margin: 0 auto;
@@ -145,7 +149,7 @@ ul.list-subcat {
 }
 
 h4.txt-red.title-header.text-center {
-  padding-top: 123px;
+  padding-top: 68px;
 }
 
 .cont-item {
@@ -157,9 +161,9 @@ a:focus, a:active, a:hover {
 }
 
 .divisor {
-  width: 35%;
+  width: 25%;
   background: #b3b3b3;
-  height: 2px;
+  height: 1px;
   margin: 20px auto 10px;
 }
 
@@ -177,19 +181,32 @@ a:focus, a:active, a:hover {
   bottom: -33px;
 }
 
+.more-cat {
+  font-size: 15px;
+}
+
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
 @media screen and (min-width: 992px) {
+  li.sub-cat.text-center {
+    font-size: 15px;
+  }
+  .cont-item span {
+    padding: 30px 20px 10px;
+    line-height: 24px;
+    font-size: 15px;
+  }
   .txt-header {
     padding: 30px 20px 10px;
     line-height: 24px;
     font-size: 16px;
-}
+  }
   .header-card a {
     justify-content: center;
   }
   .img-garantia {
     width: 25%;
+    padding-bottom: 40px;
   }
   .collapse {
     display: block !important;
@@ -201,7 +218,7 @@ a:focus, a:active, a:hover {
     padding: 10px 50px 10px;
   }
   .header-card a {
-    font-size: 20px;
+    font-size: 26px;
     padding: 16px;
   }
   .sub-cat {
@@ -219,7 +236,7 @@ a:focus, a:active, a:hover {
     border-radius: 5px;
   }
   h4.txt-red.title-header.text-center {
-    padding-top: 146px;
+    padding-top: 205px;
     font-size: 33px;
   }
   .title-header {
@@ -237,7 +254,6 @@ a:focus, a:active, a:hover {
   .cont-item {
     padding: 15px 95px 0;
   }
-
 }
 
 /*Mobile 200+*/
@@ -271,7 +287,7 @@ a:focus, a:active, a:hover {
 
 @media screen and (max-width:453px) {
   .cont-item {
-    padding: 15px 35px 0;
+    padding: 12px 35px 12px;
   }
   .header-card a {
     padding: 0 40px;
