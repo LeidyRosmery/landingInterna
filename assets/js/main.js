@@ -3,11 +3,13 @@ $(document).ready(function() {
 
 });
 $(document).ready(function() {
+  /*desktop estilos css */
   if ($(window).width() > 992) {
     var heights = $(".list-subcat").map(function() {
         return $(this).height();
-    }).get(),
-    maxHeight = Math.max.apply(null, heights);
+      }).get(),
+      maxHeight = Math.max.apply(null, heights);
     $(".list-subcat").height(maxHeight);
+    $('.cont-interna ').css('background-image', 'url(../img/logo-fondo-desktopl.png)');
   }
 });
