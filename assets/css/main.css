@@ -58,14 +58,32 @@
   color: #2c76b1;
   font-size: 1.2em;
 }
-
+.portada-movil{
+background-image: url(../img/portada-movil.png);
+}
+.portada-desktop{
+background-image: url(../img/portada-desktop.png);
+}
+.portada-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 ul.list-subcat {
   list-style: none;
   padding: 0;
 }
 
-.plus.glyphicon.glyphicon-plus {
-  color: #fff;
+.plus {
+  display: block;
+  font-size: 32px;
+  font-family: monospace;
+  top: 0;
 }
 
 .return {
@@ -211,6 +229,19 @@ a:focus, a:active, a:hover {
 .more-cat {
   font-size: 15px;
 }
+.glyphicon {
+}
+.txt-portada{
+  background-color: #2c76b1;
+  color: #fff;
+  font-family: "misobold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 13px 7px;
+}
+
 
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
@@ -221,9 +252,19 @@ a:focus, a:active, a:hover {
   li.sub-cat.text-center {
     font-size: 15px;
   }
+<<<<<<< HEAD
   img.img-garantia {
     padding-bottom: 40px;
 }
+=======
+  .txt-portada {
+    font-size: 50px;
+    padding: 29px 33px;
+}
+  .portada-img {
+      height: 400px;
+  }
+>>>>>>> master
   .cont-item span {
     padding: 30px 20px 10px;
     line-height: 24px;
