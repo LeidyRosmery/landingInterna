@@ -82,7 +82,9 @@ ul.list-subcat {
   list-style: none;
   padding: 0;
 }
-
+li.sub-cat.text-center {
+    font-size: 14px;
+}
 .plus {
   display: block;
   font-size: 32px;
@@ -238,7 +240,7 @@ img.img-garantia {
 
 @media screen and (min-width: 992px) {
   li.sub-cat.text-center {
-    font-size: 15px;
+    font-size: 16px;
   }
   .txt-portada {
     font-size: 50px;
@@ -253,7 +255,7 @@ img.img-garantia {
   .cont-item span {
     padding: 30px 20px 10px;
     line-height: 24px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .txt-header {
     padding: 30px 20px 55px;
@@ -262,7 +264,7 @@ img.img-garantia {
   }
 
   .txt-header p {
-    font-size: 17px;
+    font-size: 18px;
 }
   .header-card a {
     justify-content: center;
